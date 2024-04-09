@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Bill System - Bill List</title>
+</head>
+<body>
+    <h1>Electric Bill System - Bill List</h1>
+    <ul>
+        {% for bill in bills %}
+            <li>{{ bill.customer }} - {{ bill.amount }} - {{ bill.date }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_bill' %}">Add Bill</a>
+</body>
+</html>
