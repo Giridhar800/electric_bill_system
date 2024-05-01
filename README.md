@@ -15,7 +15,7 @@ ElectricBill System is a web application developed using Django framework that a
 - GitHub: Version control system for collaborative development and code management.
 # Installation
 - Clone the repository:<br>
-    git clone https://github.com/your-username/electricbill-system.git
+    git clone https://github.com/Giridhar800/electric_bill_system.git
 # Install dependencies:
 - pip install -r requirements.txt
 - Run migrations:<br>
